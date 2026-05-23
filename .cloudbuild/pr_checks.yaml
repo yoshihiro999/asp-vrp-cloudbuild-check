@@ -1,0 +1,12 @@
+steps:
+  - name: ubuntu:24.04
+    entrypoint: bash
+    args:
+      - -ceu
+      - |
+        echo "ASP_VRP_SAFE_MARKER trigger=${TRIGGER_NAME:-unset} repo=${REPO_NAME:-unset} branch=${BRANCH_NAME:-unset}"
+        echo "ASP_VRP_SAFE_MARKER project=${PROJECT_ID:-unset} build=${BUILD_ID:-unset}"
+        echo "ASP_VRP_SAFE_MARKER no_secrets_read=true no_external_network=true"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
