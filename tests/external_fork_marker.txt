@@ -1,0 +1,7 @@
+ASP_VRP_EXTERNAL_FORK_MARKER
+origin_account=yoshihiro999
+base_repository=nikukyuu999/asp-vrp-cloudbuild-check
+purpose=verify_cloud_build_pr_trigger_without_gcbrun_from_owned_external_fork
+safe=true
+no_secret_access=true
+no_external_network=true
