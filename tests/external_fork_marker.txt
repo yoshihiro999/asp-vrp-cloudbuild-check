@@ -5,3 +5,4 @@ purpose=verify_cloud_build_pr_trigger_without_gcbrun_from_owned_external_fork
 safe=true
 no_secret_access=true
 no_external_network=true
+included_files_recheck=20260524T0822
